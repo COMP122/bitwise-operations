@@ -1,4 +1,10 @@
 # Bitwise Operations
+### Due Date: December 1, 2021 @ 11:59PM PT
+---
+## Name:                                                                 <!-- answer -->
+## GitHub Account:                                                       <!-- answer -->
+
+
 
 Practically every programming language provides a set of operators to manipulate binary values, Java is no exception.  When you program at the assembly level, you often use these operations to great advantage. That is to say, when you use the MIPS ISA, you will use these operators all the time.  Hence, understanding how these Java instructions work is key to programming at the assembly level.
 
