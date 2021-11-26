@@ -244,3 +244,40 @@ Use the first problem as an example on how to construct your answers.
   -                                     <!-- answer -->
   -                                     <!-- answer -->
 
+### MIPS Practicum
+
+1. An IPv4 address is an 32-bit unsigned integer.  It is more commonly denoted in dotted decimal form, e.g., 130.166.32.238. This number is said to be composed of 4 octets. (Recall an octet is synonymous with a byte.) For the provided example, the four octets are: 130, 166, 32, and 238. This 32-bit unsigned integer is also equivalent to: 0x84A620EE
+
+For this problem you need to isolate the third octet (i.e., 32) from the 32-bit integers. Perform the following steps to achieve the desired results:
+
+   1. Let $t0 hold the value of: 0x84A620EE  (i.e., 130.166.32.238)
+   1. Let $t1 hold the value of: 0x0000FF00
+   1. Perform the following operation:  and $t2, $t0, $t1  ($t2 = $t0 & $t1)
+   1. Perform the following operation:  srl $t3, $t2, 8    ($t3 = $t2 >>> 8)
+
+Your answer is provided by providing the 32-bit binary representation of $t0, $t1, $t2, and $t3:
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t0    <!-- answer -->
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t1    <!-- answer -->
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t2    <!-- answer -->
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t3    <!-- answer -->
+
+
+1. When converting a binary string to base64, each 24-bit sequence (which is 3 bytes in length) is converted into 4 6-bit values.  Then each 6-bit value is mapped onto an ASCII character.  
+
+For this problem you need to provide the corresponding ASCII character for the second 6-bit sequences.  Perform the following steps to achieve the desired results.
+
+   1. Let $t0 hold the desired 3-byte sequence: 0x32F3AA.
+   1. Let $t1 hold an appropriate value to isolate the second 6-bit sequence.
+   1. Perform the following operation:  and $t2, $t0, $t1
+   1. Perform the following operation:  srl $t3, $t2, X
+   1. Use the base64 lookup table to determine the associated ASCII character.
+      * (Base64 table)[https://docs.google.com/spreadsheets/d/1Jlo2GmWvl4bxlPN9GzXsKnl4acyppBWYQjX2S_Bm9oQ/edit#gid=0]
+
+Provide the appropriate information below to show your work to identify the associated ASCII character:
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t0    <!-- answer -->
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t1    <!-- answer -->
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t2    <!-- answer -->
+   1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t3    <!-- answer -->
+   1. hex value of $t1:                                <!-- answer -->
+   1. decimal value of X:                              <!-- answer -->
+   1. associated ASCII value:                          <!-- answer -->
