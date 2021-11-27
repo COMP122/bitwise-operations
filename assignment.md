@@ -106,9 +106,9 @@ Use the first problem as an example on how to construct your answers.
 #### Left-Shift: 
   1. X = 5 << 2
      -   5: 0000 0101                 <!-- answer -->
-     -   X: 0000 0001                 <!-- answer -->
-     - \~X: 1111 1110                 <!-- answer -->
-     -   X= 1                         <!-- answer -->
+     -   X: 0001 0100                 <!-- answer -->
+     - \~X: 1110 1011                 <!-- answer -->
+     -   X= 20                         <!-- answer -->
   
   1. X = 4 << 3
      -                                <!-- answer -->
