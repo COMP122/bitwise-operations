@@ -4,8 +4,6 @@
 ## Name:                                                                 <!-- answer -->
 ## GitHub Account:                                                       <!-- answer -->
 
-
-
 Practically every programming language provides a set of operators to manipulate binary values, Java is no exception.  When you program at the assembly level, you often use these operations to great advantage. That is to say, when you use the MIPS ISA, you will use these operators all the time.  Hence, understanding how these Java instructions work is key to programming at the assembly level.
 
 In this exercise, you need to calculate the result of a number of Java assignment statements that utilize common bitwise operations.  Understanding how these operations work is key to be be able to perform efficient operations at the assembly level.  Some simple examples include:
