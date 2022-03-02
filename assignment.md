@@ -1,8 +1,8 @@
 # Bitwise Operations
-### Due Date: December 1, 2021 @ 11:59PM PT
+### Due Date: March 8, 2022 @ 11:59PM PT
 ---
-## Name:                                                                 <!-- answer -->
-## GitHub Account:                                                       <!-- answer -->
+## Name:                                                                 <!-- response -->
+## GitHub Account:                                                       <!-- response -->
 
 Practically every programming language provides a set of operators to manipulate binary values, Java is no exception.  When you program at the assembly level, you often use these operations to great advantage. That is to say, when you use the MIPS ISA, you will use these operators all the time.  Hence, understanding how these Java instructions work is key to programming at the assembly level.
 
@@ -47,32 +47,32 @@ For each of the following Java statements, provide:
    - the 8-bit 2's complement encoding for the operand
    - the 8-bit complement of the operand
 
-Use the first problem as an example on how to construct your answers.
+Use the first problem as an example on how to construct your responses.
 
   1. X = \~ 5 
-     - X = -6                    <!-- answer -->
-     - 5:   0000 0101            <!-- answer -->
-     - \~5: 1111 1010            <!-- answer -->
+     - X = -6                    <!-- response -->
+     - 5:   0000 0101            <!-- response -->
+     - \~5: 1111 1010            <!-- response -->
 
   1. X = \~ 22 
-     - X =                        <!-- answer -->
-     - 22:                        <!-- answer -->
-     -                            <!-- answer -->
+     - X =                        <!-- response -->
+     - 22:                        <!-- response -->
+     -                            <!-- response -->
 
   1. X = \~ -16 
-     -                            <!-- answer -->
-     -                            <!-- answer -->
-     -                            <!-- answer -->
+     -                            <!-- response -->
+     -                            <!-- response -->
+     -                            <!-- response -->
  
   1. X = \~ -12 
-     -                            <!-- answer -->
-     -                            <!-- answer -->
-     -                            <!-- answer -->
+     -                            <!-- response -->
+     -                            <!-- response -->
+     -                            <!-- response -->
 
   1. X = \~ 127 
-     -                            <!-- answer -->
-     -                            <!-- answer -->
-     -                            <!-- answer -->
+     -                            <!-- response -->
+     -                            <!-- response -->
+     -                            <!-- response -->
  
 Hmm, \~ X == - (X + 1) ?
 
@@ -99,104 +99,104 @@ For each of these problems, provide the following information:
   3. the 8-bit representation for \~X 
   3. the equivalent base 10 representation for X
 
-Use the first problem as an example on how to construct your answers.
+Use the first problem as an example on how to construct your responses.
 
 #### Left-Shift: 
   1. X = 5 << 2
-     -   5: 0000 0101                 <!-- answer -->
-     -   X: 0001 0100                 <!-- answer -->
-     - \~X: 1110 1011                 <!-- answer -->
-     -   X= 20                         <!-- answer -->
+     -   5: 0000 0101                 <!-- response -->
+     -   X: 0001 0100                 <!-- response -->
+     - \~X: 1110 1011                 <!-- response -->
+     -   X= 20                         <!-- response -->
   
   1. X = 4 << 3
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = 127 << 1
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = 1 << 7
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = -2 << 4
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
 
 #### Signed Shift-Right: Notice that the sign bit replicates itself
 
   1. X = -22 >> 2
-     -  -22: 1110 1010                <!-- answer -->
-     -   X:  1111 1010                <!-- answer -->
-     - \~X:  0000 0101                <!-- answer -->
-     -   X=  -6                       <!-- answer -->
+     -  -22: 1110 1010                <!-- response -->
+     -   X:  1111 1010                <!-- response -->
+     - \~X:  0000 0101                <!-- response -->
+     -   X=  -6                       <!-- response -->
   
   1. X = 16 >> 4
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = 16 >> 2
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = 127 >> 6
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = -16 >> 2
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
 
 #### UnSigned Shift-Right: 
 
   1. X = -22 >>> 2
-     -  -22: 1110 1010                <!-- answer -->
-     -   X:  0011 1010                <!-- answer -->
-     - \~X:  1100 0101                <!-- answer -->
-     -   X=  58                       <!-- answer -->
+     -  -22: 1110 1010                <!-- response -->
+     -   X:  0011 1010                <!-- response -->
+     - \~X:  1100 0101                <!-- response -->
+     -   X=  58                       <!-- response -->
   
   1. X = 16 >>> 4
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = 16 >>> 2
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = -127 >>> 6
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
   
   1. X = -16 >>> 2
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
-     -                                <!-- answer -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
+     -                                <!-- response -->
 
 Hmm, as compared to the >> operator, only negative numbers work differently!
 
@@ -218,37 +218,37 @@ For each of these problems, provide the following information:
   1. the 16-bit representation for A and B
   2. the 16-bit representation for X 
 
-Use the first problem as an example on how to construct your answers.
+Use the first problem as an example on how to construct your responses.
 
   1. X = 0x4152 & 0xF0
-     -  0x4512:  0100 0001 0101 0010       <!-- answer -->
-     -  0x00F0:  0000 0000 1111 0000       <!-- answer -->
-     -       X:  0000 0000 0101 0000       <!-- answer --> 
+     -  0x4512:  0100 0001 0101 0010       <!-- response -->
+     -  0x00F0:  0000 0000 1111 0000       <!-- response -->
+     -       X:  0000 0000 0101 0000       <!-- response --> 
   
   1. X = 0x4152 & 0xF00   
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
   
   1. X = 0x4152 \| 0xAAA
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
   
   1. X = 0640 \| 0137
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
   
   1. X = 0x4152 ^ 0xF0
-     -                                     <!-- answer -->        
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
+     -                                     <!-- response -->        
+     -                                     <!-- response -->
+     -                                     <!-- response -->
   
   1. X = 0x4152 ^ 0xAAAA
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
-     -                                     <!-- answer -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
+     -                                     <!-- response -->
 
 ### MIPS Practicum
 
@@ -262,12 +262,12 @@ For this problem you need to isolate the third octet (i.e., 32) from the 32-bit 
   1. Perform the following operation:  and $t2, $t0, $t1  ($t2 = $t0 & $t1)
   1. Perform the following operation:  srl $t3, $t2, 8    ($t3 = $t2 >>> 8)
 
-Your answer is provided by providing the 32-bit binary representation of $t0, $t1, $t2, and $t3:
+Your response is provided by providing the 32-bit binary representation of $t0, $t1, $t2, and $t3:
 
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t0    <!-- answer -->
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t1    <!-- answer -->
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t2    <!-- answer -->
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t3    <!-- answer -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t0    <!-- response -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t1    <!-- response -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t2    <!-- response -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t3    <!-- response -->
 
 #### Base64
 When converting a binary string to base64, each 24-bit sequence (which is 3 bytes in length) is converted into 4 6-bit values.  Then each 6-bit value is mapped onto an ASCII character.
@@ -283,11 +283,11 @@ For this problem you need to provide the corresponding ASCII character for the s
 
 Provide the appropriate information below to show your work to identify the associated ASCII character:
 
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t0    <!-- answer -->
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t1    <!-- answer -->
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t2    <!-- answer -->
-  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t3    <!-- answer -->
-  1. hex value of $t1:                                <!-- answer -->
-  1. decimal value of X:                              <!-- answer -->
-  1. associated ASCII value:                          <!-- answer -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t0    <!-- response -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t1    <!-- response -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t2    <!-- response -->
+  1. xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx : $t3    <!-- response -->
+  1. hex value of $t1:                                <!-- response -->
+  1. decimal value of X:                              <!-- response -->
+  1. associated ASCII value:                          <!-- response -->
 
