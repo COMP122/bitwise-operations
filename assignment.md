@@ -253,11 +253,11 @@ Use the first problem as an example on how to construct your responses.
 ### MIPS Practicum
 
 #### IPv Dotted Decimal
-An IPv4 address is an 32-bit unsigned integer.  It is more commonly denoted in dotted decimal form, e.g., 130.166.32.238. This number is said to be composed of 4 octets. (Recall an octet is synonymous with a byte.) For the provided example, the four octets are: 130, 166, 32, and 238. This 32-bit unsigned integer is also equivalent to: 0x84A620EE
+An IPv4 address is an 32-bit unsigned integer.  It is more commonly denoted in dotted decimal form, e.g., 130.166.32.238. This number is said to be composed of 4 octets. (Recall an octet is synonymous with a byte.) For the provided example, the four octets are: 130, 166, 32, and 238. This 32-bit unsigned integer is also equivalent to: 0x82A620EE
 
 For this problem you need to isolate the third octet (i.e., 32) from the 32-bit integers. Perform the following steps to achieve the desired results:
 
-  1. Let $t0 hold the value of: 0x84A620EE  (i.e., 130.166.32.238)
+  1. Let $t0 hold the value of: 0x82A620EE  (i.e., 130.166.32.238)
   1. Let $t1 hold the value of: 0x0000FF00
   1. Perform the following operation:  and $t2, $t0, $t1  ($t2 = $t0 & $t1)
   1. Perform the following operation:  srl $t3, $t2, 8    ($t3 = $t2 >>> 8)
